@@ -12,27 +12,14 @@ struct Jugador {
 
 
 float calcularPromedio(const Jugador &jugador) {
-  return (jugador.partidos > 0) ? static_cast<float>(jugador.goles) / (jugador.partidos) : 0;
+
 }
 Jugador crearJugador() {
-    Jugador jugador;
-    cout << "Nombre: ";
-    getline(cin, jugador.nombre);
-    cout << "Goles: ";
-    cin >> jugador.goles;
-    cout << "Partidos jugados: ";
-    cin >> jugador.partidos;
-    cin.ignore();
-    jugador.promedio = calcularPromedio(jugador);
+
     return jugador;
 }
 Jugador* ptrMejorJugador(vector<Jugador> &jugadores) {
-    Jugador* mejorJugador = &jugadores[0];
-    for (auto &jugador : jugadores) {
-        if (mejorJugador->promedio < jugador.promedio) {
-            mejorJugador = &jugador;
-        }
-    }
+
     return mejorJugador;
 }
 int main() {
@@ -43,12 +30,14 @@ int main() {
 
     vector<Jugador> jugadores(n);
 
+    // Llenar arreglo de jugadores con entrada del usuario
     for (int i = 0; i < n; ++i) {
         cout << "\nJugador #" << (i + 1) << endl;
         jugadores[i] = crearJugador();
     }
 
 
+    // Mostrar estadisticas
     cout << "\n--- Estadísticas de jugadores ---\n";
     for (auto& jugador : jugadores) {
         cout << "Jugador: " << jugador.nombre
@@ -57,6 +46,7 @@ int main() {
              << " | Promedio: " << fixed << setprecision(2) << jugador.promedio << endl;
     }
 
+    // Hallar el jugador más efectivo (jugador con mejor promedio)
     auto mejorJugador = ptrMejorJugador(jugadores);
     cout << "\nJugador más efectivo: " << mejorJugador->nombre
          << " con un promedio de " << fixed << setprecision(2) << mejorJugador->promedio << " goles por partido.\n";
