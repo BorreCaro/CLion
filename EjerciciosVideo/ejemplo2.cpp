@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <windows.h>
 using namespace std;
 struct Producto {
     int id;
@@ -41,6 +42,8 @@ void addInventario(vector<Producto> &inventario, const string &nombre, const int
     }
 }
 int main() {
+    SetConsoleOutputCP(65001); // Tildes
+
     vector<Producto> inventario = {
         {1, "Mouse Logitech", 27, 120000},
         {2, "Teclado Razer", 32, 200000},
@@ -50,6 +53,9 @@ int main() {
     listaProductos(inventario);
     bajoStock(inventario);
     total(inventario);
+
+    cout<<endl<<"Añado productos"<<endl;
+
     addInventario(inventario, "Moto G20", 12, 540000);
     addInventario(inventario, "Mouse Logitech", 8);
     addInventario(inventario, "Teclado Razer", 7);
