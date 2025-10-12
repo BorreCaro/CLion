@@ -6,9 +6,9 @@ bool works(const int x, const int y, const int z) {
         const int by = (y >> i) & 1;
         const int bz = (z >> i) & 1;
         bool found = false;
-        for (int a = 0; a <= 1; a++) {
-            for (int b = 0; b <= 1; b++) {
-                for (int c = 0; c <= 1; c++) {
+        for (int a = 0; a <= 1 && !found; a++) {
+            for (int b = 0; b <= 1 && !found; b++) {
+                for (int c = 0; c <= 1 && !found; c++) {
                     if (bx == (a&b) && by == (b&c) && bz == (a&c)) {
                         found = true;
                     }
