@@ -42,7 +42,7 @@ void addInventario(vector<Producto> &inventario, const string &nombre, const int
     }
 }
 int main() {
-    SetConsoleOutputCP(65001); // Tildes
+    SetConsoleOutputCP(65001); // Consola en español
 
     vector<Producto> inventario = {
         {1, "Mouse Logitech", 27, 120000},
