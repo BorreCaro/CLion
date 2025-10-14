@@ -12,7 +12,7 @@ struct Jugador {
 
 
 float calcularPromedio(const Jugador &jugador) {
-  return (jugador.partidos > 0) ? static_cast<float>(jugador.goles) / (jugador.partidos) : 0;
+  return (jugador.partidos > 0) ? static_cast<float>(jugador.goles) / static_cast<float>(jugador.partidos) : 0;
 }
 Jugador crearJugador() {
     Jugador jugador;

@@ -35,7 +35,7 @@ bool comparar(const Corredor& a,  const Corredor& b) {
 }
 
 
-vector<Corredor> top3Corredores(vector<Corredor>& datos) {
+vector<Corredor> top3Corredores(vector<Corredor> datos) {
     sort(datos.begin(), datos.end(), comparar);
     if (datos.size() > 3)
         datos.resize(3); 
@@ -52,7 +52,7 @@ int main() {
         {"Akira", "JPN", {11.7, 11.6, 11.9}}
     };
 
-    vector<Corredor> top = top3Corredores(datos);
+    const vector<Corredor> top = top3Corredores(datos);
 
     cout << "TOP 3 CORREDORES \n";
     for (int i = 0; i < top.size(); i++) {

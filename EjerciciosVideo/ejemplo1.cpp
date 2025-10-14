@@ -14,7 +14,7 @@ void mostrarEmpleado(const Empleado &empleado) {
     cout << "Salario: $" << empleado.salario << endl;
 }
 bool compararSalario(const Empleado &inicio, const Empleado &fin) {
-    return inicio.salario > fin.salario;
+    return inicio.salario < fin.salario;
 }
 void mejorPago( vector<Empleado>&empleados){
     const auto emp = max_element(empleados.begin(), empleados.end(), compararSalario);
