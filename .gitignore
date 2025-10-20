@@ -1,3 +1,5 @@
 exes/ 
 *.exe
 .idea/
+suggestions.txt
+*.pdf.xml
