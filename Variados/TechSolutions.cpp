@@ -4,7 +4,7 @@
 using namespace std;
 
 // ========== CONSTANTES ==========
-constexpr int MAX_ASPIRANTES = 100;
+const int MAX_ASPIRANTES = 100;
 const string niveles[] = {"Tecnico", "Tecnologo", "Profesional", "Posgrado"};
 
 // ========== PROTOTIPOS ==========
@@ -24,7 +24,7 @@ void ordenarPuntajes(int* indices, const int* puntajes, int n);
 // Funciones de visualización
 void cabecera();
 void mostrarAspirante(const string& nombre, long long id, int edad, int idNivel, int experiencia, int pruebas, int entrevista, int puntaje);
-void mostrarPuntajes(const string* nombres, const long long* ids, const int* edad, const int* idNiveles, const int* experiencia, const int* pruebas, const int* entrevista, const int* puntajes, int n, int* indices = nullptr);
+void mostrarPuntajes(const string* nombres, const long long* ids, const int* edad, const int* idNiveles, const int* experiencia, const int* pruebas, const int* entrevista, const int* puntajes, int n, int* indices = NULL);
 
 // Funciones principales del menú
 int registrar(long long* ids, int* edad, int* idNiveles, int* experiencia, int* pruebas, int* entrevista, string* nombres, int* puntajes);
@@ -159,7 +159,7 @@ void mostrarAspirante(const string& nombre, const long long id, const int edad, 
 void mostrarPuntajes(const string* nombres, const long long* ids, const int* edad, const int* idNiveles, const int* experiencia, const int* pruebas, const int* entrevista, const int* puntajes, const int n, int* indices) {
     cout << "Aspirantes:\n";
     cabecera();
-    if (indices == nullptr) {
+    if (indices == NULL) {
         for (int i = 0; i < n; i++) {
             mostrarAspirante(*(nombres + i), *(ids + i), *(edad + i), *(idNiveles + i), *(experiencia + i), *(pruebas + i), *(entrevista + i), *(puntajes + i));
         }
@@ -209,7 +209,8 @@ void aspiranteDestacado(const string* nombres, const long long* ids, const int* 
     long long idBuscar;
     cout << "Ingrese el ID del aspirante a consultar: ";
     cin >> idBuscar;
-    if (const int indice = buscarAspirante(ids, n, idBuscar); indice != -1) {
+    const int indice = buscarAspirante(ids, n, idBuscar);
+    if (indice != -1) {
         cabecera();
         mostrarAspirante(*(nombres + indice), *(ids + indice), *(edad + indice), *(idNiveles + indice), *(experiencia + indice), *(pruebas + indice), *(entrevista + indice), *(puntajes + indice));
     } else {
