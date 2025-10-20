@@ -21,5 +21,5 @@ g++ -std=c++20 "%SOURCE%" -o "%DIR%exes\%NAME%.exe"
 
 REM Ejecutar si compiló correctamente
 if %errorlevel% equ 0 (
-    "%DIR%exes\%NAME%.exe"
+    start cmd /k "%DIR%exes\%NAME%.exe && echo. && echo Process finished with exit code %ERRORLEVEL% && pause >nul && exit"
 )
