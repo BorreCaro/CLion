@@ -1,0 +1,3016 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Created from PDF via Acrobat SaveAsXML -->
+<!-- Mapping Table version: 28-February-2003 -->
+<TaggedPDF-doc>
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c016 91.163616, 2018/10/29-16:58:49        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/">
+         <pdf:Producer>Microsoft® Word for Microsoft 365</pdf:Producer>
+         <dc:format>xml</dc:format>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Johanny Valencia Sanchez</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <xmp:CreatorTool>Microsoft® Word for Microsoft 365</xmp:CreatorTool>
+         <xmp:CreateDate>2025-10-20T17:33:26-05:00</xmp:CreateDate>
+         <xmp:ModifyDate>2025-10-20T17:33:26-05:00</xmp:ModifyDate>
+         <xmpMM:DocumentID>uuid:2549DED2-DD21-4C33-8A2B-3D72AD74E16E</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:3c756ccd-bc76-4c94-bbff-dc42c090f765</xmpMM:InstanceID>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+<?xpacket end='r'?>
+
+<Document>
+<P>Parcial II – PB </P>
+
+<P>Johanny E. Valencia Sanchez </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>1.</Lbl>
+
+<LBody> Realizar el código en C++ de la siguiente plataforma Online, usar repositorio git para alojar el código fuente (grupos de 4 personas, cada estudiante debe tener su rama para trabajar en la funcionalidad), además usar struct y vectores de struct como se muestra a continuación: </LBody>
+</LI>
+
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Usuario: 
+<L>
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> idUsuario: Identificador único del usuario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> nombre: Nombre completo del usuario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> correoElectronico: Dirección de correo electrónico del usuario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> contraseña: Contraseña del usuario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> dirección: Dirección de envío del usuario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> métodoDePago: Método de pago preferido por el usuario. </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+</L>
+
+<P> </P>
+
+<P> </P>
+
+<P>+-------------------+ </P>
+
+<P>|      Usuario      | </P>
+
+<P>+-------------------+ </P>
+
+<P>| - idUsuario: int  | </P>
+
+<P>| - nombre: String  | </P>
+
+<P>| - correoElectronico: String | </P>
+
+<P>| - contraseña: String | </P>
+
+<P>| - direccion: String | </P>
+
+<P>| - metodoDePago: String | </P>
+
+<P>+-------------------+ </P>
+
+<P> </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Carrito de Compras: 
+<L>
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> idCarrito: Identificador único del carrito de compras. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> usuario: Identificador del usuario que escribió el comentario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> productos: Lista de productos que el usuario ha añadido al carrito. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> subtotal: Monto total del carrito antes de aplicar impuestos y descuentos. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> impuestos: Monto total de impuestos aplicados al carrito. </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+</L>
+
+<P> </P>
+
+<P> </P>
+
+<P>+-------------------+ </P>
+
+<P>| CarritoDeCompras  | </P>
+
+<P>+-------------------+ </P>
+
+<P>| - idCarrito: int  | </P>
+
+<P>| - usuario: Usuario  | </P>
+
+<P>| - productos: List&lt;Producto&gt; | </P>
+
+<P>| - subtotal: double | </P>
+
+<P>| - impuestos: double | </P>
+
+<P>+-------------------+ </P>
+
+<P> </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Orden de compra: 
+<L>
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> idOrden: Identificador único de la orden de compra. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> productos: Lista de productos comprados en la orden. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> subtotal: Monto total de la orden antes de aplicar impuestos y descuentos. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> impuestos: Monto total de impuestos aplicados a la orden. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> envío: Monto del costo de envío de la orden. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> total: Monto total de la orden incluyendo impuestos, descuentos y costo de envío. </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+</L>
+
+<P> </P>
+
+<P> </P>
+
+<P>+-------------------+ </P>
+
+<P>| OrdenDeCompra     | </P>
+
+<P>+-------------------+ </P>
+
+<P>| - idOrden: int    | </P>
+
+<P>| - productos: List&lt;Producto&gt; | </P>
+
+<P>| - subtotal: double | </P>
+
+<P>| - impuestos: double | </P>
+
+<P>| - envio: double   | </P>
+
+<P>| - total: double   | </P>
+
+<P>+-------------------+ </P>
+
+<P> </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Categoría: 
+<L>
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> idCategoría: Identificador único de la categoría. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> nombre: Nombre de la categoría. </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+</L>
+
+<P> </P>
+
+<P> </P>
+
+<P>+-------------------+ </P>
+
+<P>|     Categoria     | </P>
+
+<P>+-------------------+ </P>
+
+<P>| - idCategoria: int | </P>
+
+<P>| - nombre: String   | </P>
+
+<P>+-------------------+ </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Comentarios: 
+<L>
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> idComentario: Identificador único del comentario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> producto: Identificador del producto al que se refiere el comentario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> usuario: Identificador del usuario que escribió el comentario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> comentario: Contenido del comentario. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> fecha: Fecha de creación del comentario. </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+</L>
+
+<P> </P>
+
+<P> </P>
+
+<P>+-------------------+ </P>
+
+<P>|    Comentarios    | </P>
+
+<P>+-------------------+ </P>
+
+<P>| - idComentario: int | </P>
+
+<P>| - producto: Producto | </P>
+
+<P>| - usuario: Usuario  | </P>
+
+<P>| - comentario: String | </P>
+
+<P>| - fecha: String       | </P>
+
+<P>+-------------------+ </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Producto: 
+<L>
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> idProducto: Identificador único del producto. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> nombre: Nombre del producto. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> descripción: Descripción detallada del producto. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> precio: Precio del producto. </LBody>
+</LI>
+
+<LI>
+<Lbl>o</Lbl>
+
+<LBody> stock: Cantidad de unidades disponibles en el inventario. </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+</L>
+
+<P> </P>
+
+<P> </P>
+
+<P>+-------------------+ </P>
+
+<P>|     Producto      | </P>
+
+<P>+-------------------+ </P>
+
+<P>| - idProducto: int | </P>
+
+<P>| - nombre: String  | </P>
+
+<P>| - descripcion: String | </P>
+
+<P>| - precio: double  | </P>
+
+<P>| - stock: int      | </P>
+
+<P>+-------------------+ </P>
+
+<P> </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>2.</Lbl>
+
+<LBody> Se debe realizar un programa en C++ con lo siguiente: 
+<L>
+<LI>
+<Lbl>a.</Lbl>
+
+<LBody> Inicialización: Cargar al inicio del programa esta información para un vector de Usuarios (valor: 0.5 puntos) </LBody>
+</LI>
+
+<LI>
+<Lbl>b.</Lbl>
+
+<LBody> Iniciar sesión: debe buscar en el Vector si existe el usuario o no, sino existe el usuario, enviar un mensaje de usuario invalido (valor: 1.0 punto) </LBody>
+</LI>
+
+<LI>
+<Lbl>c.</Lbl>
+
+<LBody> Si el usuario existe debe tener el siguiente menú: (valor: 1.0 puntos) 
+<L>
+<LI>
+<Lbl>i.</Lbl>
+
+<LBody> Listar Productos: lista todos los productos que en su inventario este por debajo de 15 unidades </LBody>
+</LI>
+
+<LI>
+<Lbl>ii.</Lbl>
+
+<LBody> Comentarios de una fecha en adelante </LBody>
+</LI>
+
+<LI>
+<Lbl>iii.</Lbl>
+
+<LBody> Listar usuarios: lista todos los usuarios, no debe mostrar la clave de los usuarios, e imprimir el nombre del usuario en mayuscula </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+
+<LI>
+<Lbl>d.</Lbl>
+
+<LBody> Que pueda adicionar productos en el carrito de compras y que usuario llena el carrito, este vector se debe crear. El idCarrito debe ser incremental, es decir empieza con 1, 2, 3 y así sucesivamente, es decir antes se debe buscar el ultimo id en el vector y sumarle luego 1. Ademas descontar del stock los productos que se adicionen en el carrito de compras (valor: 1.5 puntos) </LBody>
+</LI>
+
+<LI>
+<Lbl>e.</Lbl>
+
+<LBody> y otra opción que se pueda listar los productos del carrito (valor: 1.0 puntos) </LBody>
+</LI>
+</L>
+</LBody>
+</LI>
+</L>
+
+<Table>
+<THead>
+<TR>
+<TH>
+<P>idUsuar</P>
+</TH>
+
+<TH>
+<P>nombre </P>
+</TH>
+
+<TH>
+<P>correoElectronico </P>
+</TH>
+
+<TH>
+<P>contraseña </P>
+</TH>
+
+<TH>
+<P>dirección </P>
+</TH>
+
+<TH>
+<P>métodoDePago </P>
+</TH>
+</TR>
+</THead>
+
+<TBody>
+<TR>
+<TH>
+<P>1 </P>
+</TH>
+
+<TD>
+<P>Juan Pérez </P>
+</TD>
+
+<TD>
+<P>juan.perez@email.com </P>
+</TD>
+
+<TD>
+<P>Qwerty123 </P>
+</TD>
+
+<TD>
+<P>Carrera 45 #10-20 </P>
+</TD>
+
+<TD>
+<P> Tarjeta de crédito </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>2 </P>
+</TH>
+
+<TD>
+<P>Ana Gómez </P>
+</TD>
+
+<TD>
+<P>ana.gomez@email.com </P>
+</TD>
+
+<TD>
+<P>Pass456 </P>
+</TD>
+
+<TD>
+<P>Calle 21 #35-50 </P>
+</TD>
+
+<TD>
+<P> PayPal </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>3 </P>
+</TH>
+
+<TD>
+<P>Carlos Ruiz </P>
+</TD>
+
+<TD>
+<P>carlos.ruiz@email.com </P>
+</TD>
+
+<TD>
+<P>Segura789 </P>
+</TD>
+
+<TD>
+<P>Avenida Principal #100 </P>
+</TD>
+
+<TD>
+<P> Transferencia bancaria </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>4 </P>
+</TH>
+
+<TD>
+<P>Sofía Martínez </P>
+</TD>
+
+<TD>
+<P>sofia.martinez@email.com </P>
+</TD>
+
+<TD>
+<P>Clave987 </P>
+</TD>
+
+<TD>
+<P>Calle 8 #20-30 </P>
+</TD>
+
+<TD>
+<P> Efectivo </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>5 </P>
+</TH>
+
+<TD>
+<P>Diego Fernández </P>
+</TD>
+
+<TD>
+<P>diego.fernandez@email.com </P>
+</TD>
+
+<TD>
+<P>Contra654 </P>
+</TD>
+
+<TD>
+<P>Carrera 77 #40-60 </P>
+</TD>
+
+<TD>
+<P> Tarjeta débito </P>
+</TD>
+</TR>
+</TBody>
+</Table>
+
+<P> </P>
+
+<P>Cargar al inicio para un vector de Productos con la siguiente información: </P>
+
+<P> </P>
+
+<Table>
+<THead>
+<TR>
+<TH>
+<P>idProducto </P>
+</TH>
+
+<TH>
+<P>nombre </P>
+</TH>
+
+<TH>
+<P>descripcion </P>
+</TH>
+
+<TH>
+<P>precio </P>
+</TH>
+
+<TH>
+<P>stock </P>
+</TH>
+</TR>
+</THead>
+
+<TBody>
+<TR>
+<TH>
+<P>1 </P>
+</TH>
+
+<TD>
+<P>Laptop </P>
+</TD>
+
+<TD>
+<P>Portátil con pantalla Full HD y SSD de 512GB </P>
+</TD>
+
+<TD>
+<P>89999 </P>
+</TD>
+
+<TD>
+<P>10 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>2 </P>
+</TH>
+
+<TD>
+<P>Smartphone </P>
+</TD>
+
+<TD>
+<P>Teléfono con cámara de 108MP y carga rápida </P>
+</TD>
+
+<TD>
+<P>49950 </P>
+</TD>
+
+<TD>
+<P>20 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>3 </P>
+</TH>
+
+<TD>
+<P>Tablet </P>
+</TD>
+
+<TD>
+<P>Dispositivo con pantalla táctil de 10 pulgadas </P>
+</TD>
+
+<TD>
+<P>29999 </P>
+</TD>
+
+<TD>
+<P>15 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>4 </P>
+</TH>
+
+<TD>
+<P>Auriculares </P>
+</TD>
+
+<TD>
+<P>Audífonos inalámbricos con cancelación de ruido </P>
+</TD>
+
+<TD>
+<P>12999 </P>
+</TD>
+
+<TD>
+<P>25 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>5 </P>
+</TH>
+
+<TD>
+<P>Teclado </P>
+</TD>
+
+<TD>
+<P>Teclado mecánico con iluminación RGB </P>
+</TD>
+
+<TD>
+<P>8999 </P>
+</TD>
+
+<TD>
+<P>30 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>6 </P>
+</TH>
+
+<TD>
+<P>Mouse </P>
+</TD>
+
+<TD>
+<P>Ratón inalámbrico con sensor óptico de alta precisión </P>
+</TD>
+
+<TD>
+<P>5999 </P>
+</TD>
+
+<TD>
+<P>50 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>7 </P>
+</TH>
+
+<TD>
+<P>Monitor </P>
+</TD>
+
+<TD>
+<P>Pantalla LED 4K de 27 pulgadas </P>
+</TD>
+
+<TD>
+<P>49900 </P>
+</TD>
+
+<TD>
+<P>12 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>8 </P>
+</TH>
+
+<TD>
+<P>Impresora </P>
+</TD>
+
+<TD>
+<P>Láser multifuncional con Wi-Fi </P>
+</TD>
+
+<TD>
+<P>17999 </P>
+</TD>
+
+<TD>
+<P>18 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>9 </P>
+</TH>
+
+<TD>
+<P>Cámara </P>
+</TD>
+
+<TD>
+<P>Cámara digital con lente profesional </P>
+</TD>
+
+<TD>
+<P>79999 </P>
+</TD>
+
+<TD>
+<P>8 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>10 </P>
+</TH>
+
+<TD>
+<P>Smartwatch </P>
+</TD>
+
+<TD>
+<P>Reloj inteligente con GPS y monitoreo cardíaco </P>
+</TD>
+
+<TD>
+<P>19999 </P>
+</TD>
+
+<TD>
+<P>22 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>11 </P>
+</TH>
+
+<TD>
+<P>Silla Gamer </P>
+</TD>
+
+<TD>
+<P>Silla ergonómica ajustable con soporte lumbar </P>
+</TD>
+
+<TD>
+<P>29999 </P>
+</TD>
+
+<TD>
+<P>14 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>12 </P>
+</TH>
+
+<TD>
+<P>Microondas </P>
+</TD>
+
+<TD>
+<P>Horno microondas con múltiples funciones </P>
+</TD>
+
+<TD>
+<P>12999 </P>
+</TD>
+
+<TD>
+<P>40 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>13 </P>
+</TH>
+
+<TD>
+<P>Refrigerador </P>
+</TD>
+
+<TD>
+<P>Frigorífico doble puerta con sistema No Frost </P>
+</TD>
+
+<TD>
+<P>119999 </P>
+</TD>
+
+<TD>
+<P>5 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>14 </P>
+</TH>
+
+<TD>
+<P>Lavadora </P>
+</TD>
+
+<TD>
+<P>Lavadora automática con capacidad de 10kg </P>
+</TD>
+
+<TD>
+<P>59999 </P>
+</TD>
+
+<TD>
+<P>7 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>15 </P>
+</TH>
+
+<TD>
+<P>Cafetera </P>
+</TD>
+
+<TD>
+<P>Cafetera express con vaporizador de leche </P>
+</TD>
+
+<TD>
+<P>14999 </P>
+</TD>
+
+<TD>
+<P>35 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>16 </P>
+</TH>
+
+<TD>
+<P>Drone </P>
+</TD>
+
+<TD>
+<P>Drone con cámara 4K y estabilizador </P>
+</TD>
+
+<TD>
+<P>69999 </P>
+</TD>
+
+<TD>
+<P>9 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>17 </P>
+</TH>
+
+<TD>
+<P>Bocina Bluetooth </P>
+</TD>
+
+<TD>
+<P>Altavoz portátil con sonido envolvente </P>
+</TD>
+
+<TD>
+<P>8999 </P>
+</TD>
+
+<TD>
+<P>33 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>18 </P>
+</TH>
+
+<TD>
+<P>Videocámara </P>
+</TD>
+
+<TD>
+<P>Videocámara profesional con grabación en 4K </P>
+</TD>
+
+<TD>
+<P>99999 </P>
+</TD>
+
+<TD>
+<P>6 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>19 </P>
+</TH>
+
+<TD>
+<P>TV LED </P>
+</TD>
+
+<TD>
+<P>Televisor inteligente de 55 pulgadas con HDR </P>
+</TD>
+
+<TD>
+<P>74999 </P>
+</TD>
+
+<TD>
+<P>11 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>20 </P>
+</TH>
+
+<TD>
+<P>Batería Externa </P>
+</TD>
+
+<TD>
+<P>Batería de 20000mAh con carga rápida </P>
+</TD>
+
+<TD>
+<P>3999 </P>
+</TD>
+
+<TD>
+<P>45 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>21 </P>
+</TH>
+
+<TD>
+<P>Disco Duro </P>
+</TD>
+
+<TD>
+<P>Disco duro externo de 2TB </P>
+</TD>
+
+<TD>
+<P>12999 </P>
+</TD>
+
+<TD>
+<P>28 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>22 </P>
+</TH>
+
+<TD>
+<P>Memoria USB </P>
+</TD>
+
+<TD>
+<P>Pendrive de 128GB </P>
+</TD>
+
+<TD>
+<P>2999 </P>
+</TD>
+
+<TD>
+<P>60 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>23 </P>
+</TH>
+
+<TD>
+<P>Router </P>
+</TD>
+
+<TD>
+<P>Router Wi-Fi 6 de alta velocidad </P>
+</TD>
+
+<TD>
+<P>19999 </P>
+</TD>
+
+<TD>
+<P>16 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>24 </P>
+</TH>
+
+<TD>
+<P>Joystick </P>
+</TD>
+
+<TD>
+<P>Control inalámbrico para videojuegos </P>
+</TD>
+
+<TD>
+<P>7999 </P>
+</TD>
+
+<TD>
+<P>20 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>25 </P>
+</TH>
+
+<TD>
+<P>Fuente de Poder </P>
+</TD>
+
+<TD>
+<P>Fuente de alimentación para PC de 750W </P>
+</TD>
+
+<TD>
+<P>8999 </P>
+</TD>
+
+<TD>
+<P>17 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>26 </P>
+</TH>
+
+<TD>
+<P>SSD </P>
+</TD>
+
+<TD>
+<P>Unidad de almacenamiento SSD de 1TB </P>
+</TD>
+
+<TD>
+<P>14999 </P>
+</TD>
+
+<TD>
+<P>32 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>27 </P>
+</TH>
+
+<TD>
+<P>Altavoces </P>
+</TD>
+
+<TD>
+<P>Par de bocinas estéreo con subwoofer </P>
+</TD>
+
+<TD>
+<P>13999 </P>
+</TD>
+
+<TD>
+<P>23 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>28 </P>
+</TH>
+
+<TD>
+<P>Webcam </P>
+</TD>
+
+<TD>
+<P>Cámara web Full HD con micrófono integrado </P>
+</TD>
+
+<TD>
+<P>6999 </P>
+</TD>
+
+<TD>
+<P>37 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>29 </P>
+</TH>
+
+<TD>
+<P>Procesador </P>
+</TD>
+
+<TD>
+<P>CPU Intel i7 de última generación </P>
+</TD>
+
+<TD>
+<P>34999 </P>
+</TD>
+
+<TD>
+<P>9 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>30 </P>
+</TH>
+
+<TD>
+<P>Motherboard </P>
+</TD>
+
+<TD>
+<P>Placa base compatible con procesadores modernos </P>
+</TD>
+
+<TD>
+<P>19999 </P>
+</TD>
+
+<TD>
+<P>13 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>31 </P>
+</TH>
+
+<TD>
+<P>Memoria RAM </P>
+</TD>
+
+<TD>
+<P>Módulo de RAM DDR4 de 16GB </P>
+</TD>
+
+<TD>
+<P>7999 </P>
+</TD>
+
+<TD>
+<P>41 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>32 </P>
+</TH>
+
+<TD>
+<P>Fuente Solar </P>
+</TD>
+
+<TD>
+<P>Panel solar portátil con batería integrada </P>
+</TD>
+
+<TD>
+<P>24999 </P>
+</TD>
+
+<TD>
+<P>4 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>33 </P>
+</TH>
+
+<TD>
+<P>Control Remoto </P>
+</TD>
+
+<TD>
+<P>Mando universal para TV y dispositivos </P>
+</TD>
+
+<TD>
+<P>2499 </P>
+</TD>
+
+<TD>
+<P>50 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>34 </P>
+</TH>
+
+<TD>
+<P>Termostato </P>
+</TD>
+
+<TD>
+<P>Termostato digital programable </P>
+</TD>
+
+<TD>
+<P>9999 </P>
+</TD>
+
+<TD>
+<P>22 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>35 </P>
+</TH>
+
+<TD>
+<P>Smart Lock </P>
+</TD>
+
+<TD>
+<P>Cerradura electrónica con huella digital </P>
+</TD>
+
+<TD>
+<P>19999 </P>
+</TD>
+
+<TD>
+<P>6 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>36 </P>
+</TH>
+
+<TD>
+<P>Proyector </P>
+</TD>
+
+<TD>
+<P>Proyector LED con resolución Full HD </P>
+</TD>
+
+<TD>
+<P>29999 </P>
+</TD>
+
+<TD>
+<P>12 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>37 </P>
+</TH>
+
+<TD>
+<P>Switch Ethernet </P>
+</TD>
+
+<TD>
+<P>Switch de red de 8 puertos </P>
+</TD>
+
+<TD>
+<P>5999 </P>
+</TD>
+
+<TD>
+<P>38 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>38 </P>
+</TH>
+
+<TD>
+<P>Reloj Digital </P>
+</TD>
+
+<TD>
+<P>Reloj inteligente con pantalla AMOLED </P>
+</TD>
+
+<TD>
+<P>8999 </P>
+</TD>
+
+<TD>
+<P>26 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>39 </P>
+</TH>
+
+<TD>
+<P>Luces LED </P>
+</TD>
+
+<TD>
+<P>Tiras LED RGB con control remoto </P>
+</TD>
+
+<TD>
+<P>3999 </P>
+</TD>
+
+<TD>
+<P>55 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>40 </P>
+</TH>
+
+<TD>
+<P>Estabilizador </P>
+</TD>
+
+<TD>
+<P>Estabilizador de voltaje para dispositivos electrónicos </P>
+</TD>
+
+<TD>
+<P>15999 </P>
+</TD>
+
+<TD>
+<P>10 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>41 </P>
+</TH>
+
+<TD>
+<P>Cargador Inalámbrico </P>
+</TD>
+
+<TD>
+<P>Base de carga inalámbrica rápida </P>
+</TD>
+
+<TD>
+<P>4999 </P>
+</TD>
+
+<TD>
+<P>30 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>42 </P>
+</TH>
+
+<TD>
+<P>HDD Externo </P>
+</TD>
+
+<TD>
+<P>Disco duro portátil de 4TB </P>
+</TD>
+
+<TD>
+<P>17999 </P>
+</TD>
+
+<TD>
+<P>15 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>43 </P>
+</TH>
+
+<TD>
+<P>Micrófono </P>
+</TD>
+
+<TD>
+<P>Micrófono profesional para grabación </P>
+</TD>
+
+<TD>
+<P>14999 </P>
+</TD>
+
+<TD>
+<P>7 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>44 </P>
+</TH>
+
+<TD>
+<P>Altavoz Inteligente </P>
+</TD>
+
+<TD>
+<P>Asistente de voz con altavoz integrado </P>
+</TD>
+
+<TD>
+<P>12999 </P>
+</TD>
+
+<TD>
+<P>20 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>45 </P>
+</TH>
+
+<TD>
+<P>Antena Wi-Fi </P>
+</TD>
+
+<TD>
+<P>Amplificador de señal inalámbrico </P>
+</TD>
+
+<TD>
+<P>7999 </P>
+</TD>
+
+<TD>
+<P>33 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>46 </P>
+</TH>
+
+<TD>
+<P>Climatizador </P>
+</TD>
+
+<TD>
+<P>Aire acondicionado portátil con control remoto </P>
+</TD>
+
+<TD>
+<P>29999 </P>
+</TD>
+
+<TD>
+<P>5 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>47 </P>
+</TH>
+
+<TD>
+<P>Raspberry Pi </P>
+</TD>
+
+<TD>
+<P>Kit de desarrollo con Raspberry Pi 4 </P>
+</TD>
+
+<TD>
+<P>12999 </P>
+</TD>
+
+<TD>
+<P>19 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>48 </P>
+</TH>
+
+<TD>
+<P>Capturadora </P>
+</TD>
+
+<TD>
+<P>Placa de captura de video en alta resolución </P>
+</TD>
+
+<TD>
+<P>19999 </P>
+</TD>
+
+<TD>
+<P>8 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>49 </P>
+</TH>
+
+<TD>
+<P>Smart Plug </P>
+</TD>
+
+<TD>
+<P>Enchufe inteligente compatible con asistentes virtuales </P>
+</TD>
+
+<TD>
+<P>3999 </P>
+</TD>
+
+<TD>
+<P>42 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>50 </P>
+</TH>
+
+<TD>
+<P>Timbre Inteligente </P>
+</TD>
+
+<TD>
+<P>Timbre con cámara y conexión a Wi-Fi </P>
+</TD>
+
+<TD>
+<P>14999 </P>
+</TD>
+
+<TD>
+<P>10 </P>
+</TD>
+</TR>
+</TBody>
+</Table>
+
+<P> </P>
+
+<P>Cargar al inicio para un vector de Comentarios con la siguiente información: </P>
+
+<Table>
+<THead>
+<TR>
+<TH>
+<P>idComent</P>
+</TH>
+
+<TH>
+<P>producto </P>
+</TH>
+
+<TH>
+<P>usuario </P>
+</TH>
+
+<TH>
+<P>comentario </P>
+</TH>
+
+<TH>
+<P>fecha </P>
+</TH>
+</TR>
+</THead>
+
+<TBody>
+<TR>
+<TH>
+<P>1 </P>
+</TH>
+
+<TD>
+<P>Laptop </P>
+</TD>
+
+<TD>
+<P>Juan Pérez </P>
+</TD>
+
+<TD>
+<P>Excelente rendimiento; muy rápida. ¡Me encanta! </P>
+</TD>
+
+<TD>
+<P>1/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>2 </P>
+</TH>
+
+<TD>
+<P>Smartphone </P>
+</TD>
+
+<TD>
+<P>Ana Gómez </P>
+</TD>
+
+<TD>
+<P>Buena cámara pero la batería dura poco. </P>
+</TD>
+
+<TD>
+<P>3/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>3 </P>
+</TH>
+
+<TD>
+<P>Tablet </P>
+</TD>
+
+<TD>
+<P>Carlos Ruiz </P>
+</TD>
+
+<TD>
+<P>No me gustó; pantalla de baja calidad. </P>
+</TD>
+
+<TD>
+<P>5/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>4 </P>
+</TH>
+
+<TD>
+<P>Auriculares </P>
+</TD>
+
+<TD>
+<P>Sofía Martínez </P>
+</TD>
+
+<TD>
+<P>Sonido aceptable pero el material parece frágil. </P>
+</TD>
+
+<TD>
+<P>6/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>5 </P>
+</TH>
+
+<TD>
+<P>Teclado </P>
+</TD>
+
+<TD>
+<P>Diego Fernández </P>
+</TD>
+
+<TD>
+<P>Muy buen teclado mecánico; excelente respuesta. </P>
+</TD>
+
+<TD>
+<P>8/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>6 </P>
+</TH>
+
+<TD>
+<P>Mouse </P>
+</TD>
+
+<TD>
+<P>Ana Gómez </P>
+</TD>
+
+<TD>
+<P>El sensor no es tan preciso como esperaba. </P>
+</TD>
+
+<TD>
+<P>10/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>7 </P>
+</TH>
+
+<TD>
+<P>Monitor </P>
+</TD>
+
+<TD>
+<P>Carlos Ruiz </P>
+</TD>
+
+<TD>
+<P>Colores vibrantes y buena resolución. Muy satisfecho. </P>
+</TD>
+
+<TD>
+<P>12/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>8 </P>
+</TH>
+
+<TD>
+<P>Impresora </P>
+</TD>
+
+<TD>
+<P>Juan Pérez </P>
+</TD>
+
+<TD>
+<P>Tarda mucho en imprimir; no me convence. </P>
+</TD>
+
+<TD>
+<P>13/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>9 </P>
+</TH>
+
+<TD>
+<P>Cámara </P>
+</TD>
+
+<TD>
+<P>Sofía Martínez </P>
+</TD>
+
+<TD>
+<P>Increíble calidad de imagen; fotos súper nítidas. </P>
+</TD>
+
+<TD>
+<P>15/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>10 </P>
+</TH>
+
+<TD>
+<P>Smartwatch </P>
+</TD>
+
+<TD>
+<P>Diego Fernández </P>
+</TD>
+
+<TD>
+<P>Buena batería; pero la pantalla no es muy brillante. </P>
+</TD>
+
+<TD>
+<P>18/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>11 </P>
+</TH>
+
+<TD>
+<P>Silla Gamer </P>
+</TD>
+
+<TD>
+<P>Lucía Rodríguez </P>
+</TD>
+
+<TD>
+<P>Comodidad espectacular; perfecto para largas sesiones de juego. </P>
+</TD>
+
+<TD>
+<P>20/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>12 </P>
+</TH>
+
+<TD>
+<P>Microondas </P>
+</TD>
+
+<TD>
+<P>Andrés Ramírez </P>
+</TD>
+
+<TD>
+<P>Calienta bien pero hace mucho ruido. </P>
+</TD>
+
+<TD>
+<P>22/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>13 </P>
+</TH>
+
+<TD>
+<P>Refrigerador </P>
+</TD>
+
+<TD>
+<P>María García </P>
+</TD>
+
+<TD>
+<P>Espacioso y enfría rápido; muy recomendado. </P>
+</TD>
+
+<TD>
+<P>24/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>14 </P>
+</TH>
+
+<TD>
+<P>Lavadora </P>
+</TD>
+
+<TD>
+<P>Javier Martínez </P>
+</TD>
+
+<TD>
+<P>Lava bien pero el ciclo es muy largo. </P>
+</TD>
+
+<TD>
+<P>26/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>15 </P>
+</TH>
+
+<TD>
+<P>Cafetera </P>
+</TD>
+
+<TD>
+<P>Carolina López </P>
+</TD>
+
+<TD>
+<P>Hace café delicioso; fácil de usar. </P>
+</TD>
+
+<TD>
+<P>28/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>16 </P>
+</TH>
+
+<TD>
+<P>Drone </P>
+</TD>
+
+<TD>
+<P>Daniel Castro </P>
+</TD>
+
+<TD>
+<P>Muy divertido pero la batería dura poco. </P>
+</TD>
+
+<TD>
+<P>30/05/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>17 </P>
+</TH>
+
+<TD>
+<P>Bocina Bluetooth </P>
+</TD>
+
+<TD>
+<P>Paola Herrera </P>
+</TD>
+
+<TD>
+<P>Sonido potente y buena conexión Bluetooth. </P>
+</TD>
+
+<TD>
+<P>1/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>18 </P>
+</TH>
+
+<TD>
+<P>Videocámara </P>
+</TD>
+
+<TD>
+<P>Esteban Rojas </P>
+</TD>
+
+<TD>
+<P>Perfecta para grabaciones profesionales. </P>
+</TD>
+
+<TD>
+<P>3/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>19 </P>
+</TH>
+
+<TD>
+<P>TV LED </P>
+</TD>
+
+<TD>
+<P>Fernanda Sánchez </P>
+</TD>
+
+<TD>
+<P>Imagen excelente pero el sonido podría mejorar. </P>
+</TD>
+
+<TD>
+<P>5/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>20 </P>
+</TH>
+
+<TD>
+<P>Batería Externa </P>
+</TD>
+
+<TD>
+<P>Camilo Torres </P>
+</TD>
+
+<TD>
+<P>Carga bien pero es un poco pesada. </P>
+</TD>
+
+<TD>
+<P>7/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>21 </P>
+</TH>
+
+<TD>
+<P>Disco Duro </P>
+</TD>
+
+<TD>
+<P>Gabriela Suárez </P>
+</TD>
+
+<TD>
+<P>Gran capacidad de almacenamiento; funciona rápido. </P>
+</TD>
+
+<TD>
+<P>9/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>22 </P>
+</TH>
+
+<TD>
+<P>Memoria USB </P>
+</TD>
+
+<TD>
+<P>Raúl Espinosa </P>
+</TD>
+
+<TD>
+<P>Buen tamaño pero la velocidad de transferencia es baja. </P>
+</TD>
+
+<TD>
+<P>11/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>23 </P>
+</TH>
+
+<TD>
+<P>Router </P>
+</TD>
+
+<TD>
+<P>Verónica Mendoza </P>
+</TD>
+
+<TD>
+<P>Señal potente; cubre toda la casa. </P>
+</TD>
+
+<TD>
+<P>13/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>24 </P>
+</TH>
+
+<TD>
+<P>Joystick </P>
+</TD>
+
+<TD>
+<P>Fabio Jiménez </P>
+</TD>
+
+<TD>
+<P>Comodo y resistente; ideal para gaming. </P>
+</TD>
+
+<TD>
+<P>15/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>25 </P>
+</TH>
+
+<TD>
+<P>Fuente de Poder </P>
+</TD>
+
+<TD>
+<P>Ricardo Vargas </P>
+</TD>
+
+<TD>
+<P>Funciona bien pero los cables son muy cortos. </P>
+</TD>
+
+<TD>
+<P>17/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>26 </P>
+</TH>
+
+<TD>
+<P>SSD </P>
+</TD>
+
+<TD>
+<P>Silvia Gómez </P>
+</TD>
+
+<TD>
+<P>Velocidad increíble; mi PC va mucho más rápido ahora. </P>
+</TD>
+
+<TD>
+<P>19/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>27 </P>
+</TH>
+
+<TD>
+<P>Altavoces </P>
+</TD>
+
+<TD>
+<P>Martín Aguilar </P>
+</TD>
+
+<TD>
+<P>Sonido envolvente; muy buena compra. </P>
+</TD>
+
+<TD>
+<P>21/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>28 </P>
+</TH>
+
+<TD>
+<P>Webcam </P>
+</TD>
+
+<TD>
+<P>Valentina Pérez </P>
+</TD>
+
+<TD>
+<P>Imagen clara pero el micrófono es deficiente. </P>
+</TD>
+
+<TD>
+<P>23/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>29 </P>
+</TH>
+
+<TD>
+<P>Procesador </P>
+</TD>
+
+<TD>
+<P>José Ramírez </P>
+</TD>
+
+<TD>
+<P>Rendimiento impecable; ideal para gaming y diseño. </P>
+</TD>
+
+<TD>
+<P>25/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>30 </P>
+</TH>
+
+<TD>
+<P>Motherboard </P>
+</TD>
+
+<TD>
+<P>Natalia Correa </P>
+</TD>
+
+<TD>
+<P>Buenas prestaciones pero la instalación fue complicada. </P>
+</TD>
+
+<TD>
+<P>27/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>31 </P>
+</TH>
+
+<TD>
+<P>Memoria RAM </P>
+</TD>
+
+<TD>
+<P>Julio Fernández </P>
+</TD>
+
+<TD>
+<P>Expande muy bien el rendimiento del sistema. </P>
+</TD>
+
+<TD>
+<P>29/06/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>32 </P>
+</TH>
+
+<TD>
+<P>Fuente Solar </P>
+</TD>
+
+<TD>
+<P>Amanda Castro </P>
+</TD>
+
+<TD>
+<P>Energía confiable pero la batería es pequeña. </P>
+</TD>
+
+<TD>
+<P>1/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>33 </P>
+</TH>
+
+<TD>
+<P>Control Remoto </P>
+</TD>
+
+<TD>
+<P>Pedro Duarte </P>
+</TD>
+
+<TD>
+<P>Fácil de usar; reconoce muchos dispositivos. </P>
+</TD>
+
+<TD>
+<P>3/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>34 </P>
+</TH>
+
+<TD>
+<P>Termostato </P>
+</TD>
+
+<TD>
+<P>Isabela Medina </P>
+</TD>
+
+<TD>
+<P>Regula bien la temperatura; intuitivo de usar. </P>
+</TD>
+
+<TD>
+<P>5/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>35 </P>
+</TH>
+
+<TD>
+<P>Smart Lock </P>
+</TD>
+
+<TD>
+<P>Oscar Rodríguez </P>
+</TD>
+
+<TD>
+<P>Seguridad y tecnología en un solo dispositivo. </P>
+</TD>
+
+<TD>
+<P>7/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>36 </P>
+</TH>
+
+<TD>
+<P>Proyector </P>
+</TD>
+
+<TD>
+<P>Cristina Vargas </P>
+</TD>
+
+<TD>
+<P>Imagen nítida pero requiere una sala oscura. </P>
+</TD>
+
+<TD>
+<P>9/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>37 </P>
+</TH>
+
+<TD>
+<P>Switch Ethernet </P>
+</TD>
+
+<TD>
+<P>Mario Hernández </P>
+</TD>
+
+<TD>
+<P>Buena velocidad de conexión; estable. </P>
+</TD>
+
+<TD>
+<P>11/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>38 </P>
+</TH>
+
+<TD>
+<P>Reloj Digital </P>
+</TD>
+
+<TD>
+<P>Sofía Ramírez </P>
+</TD>
+
+<TD>
+<P>Pantalla atractiva pero la batería dura poco. </P>
+</TD>
+
+<TD>
+<P>13/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>39 </P>
+</TH>
+
+<TD>
+<P>Luces LED </P>
+</TD>
+
+<TD>
+<P>Andrea Gutiérrez </P>
+</TD>
+
+<TD>
+<P>Buenas opciones de colores; buen diseño. </P>
+</TD>
+
+<TD>
+<P>15/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>40 </P>
+</TH>
+
+<TD>
+<P>Estabilizador </P>
+</TD>
+
+<TD>
+<P>Pablo Medina </P>
+</TD>
+
+<TD>
+<P>Protege bien contra variaciones de voltaje. </P>
+</TD>
+
+<TD>
+<P>17/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>41 </P>
+</TH>
+
+<TD>
+<P>Cargador Inalámbrico </P>
+</TD>
+
+<TD>
+<P>Patricia López </P>
+</TD>
+
+<TD>
+<P>Carga rápido pero requiere posicionamiento preciso. </P>
+</TD>
+
+<TD>
+<P>19/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>42 </P>
+</TH>
+
+<TD>
+<P>HDD Externo </P>
+</TD>
+
+<TD>
+<P>Gonzalo Espinoza </P>
+</TD>
+
+<TD>
+<P>Mucho espacio; resistente y confiable. </P>
+</TD>
+
+<TD>
+<P>21/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>43 </P>
+</TH>
+
+<TD>
+<P>Micrófono </P>
+</TD>
+
+<TD>
+<P>Elena Herrera </P>
+</TD>
+
+<TD>
+<P>Calidad de sonido profesional; ideal para podcast. </P>
+</TD>
+
+<TD>
+<P>23/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>44 </P>
+</TH>
+
+<TD>
+<P>Altavoz Inteligente </P>
+</TD>
+
+<TD>
+<P>Diego Soto </P>
+</TD>
+
+<TD>
+<P>Responde bien a comandos de voz; útil en casa. </P>
+</TD>
+
+<TD>
+<P>25/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>45 </P>
+</TH>
+
+<TD>
+<P>Antena Wi-Fi </P>
+</TD>
+
+<TD>
+<P>Miguel Rojas </P>
+</TD>
+
+<TD>
+<P>Amplifica bien la señal pero el rango es limitado. </P>
+</TD>
+
+<TD>
+<P>27/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>46 </P>
+</TH>
+
+<TD>
+<P>Climatizador </P>
+</TD>
+
+<TD>
+<P>Estefanía Carrillo </P>
+</TD>
+
+<TD>
+<P>Enfría rápido pero es algo ruidoso. </P>
+</TD>
+
+<TD>
+<P>29/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>47 </P>
+</TH>
+
+<TD>
+<P>Raspberry Pi </P>
+</TD>
+
+<TD>
+<P>Manuel Vargas </P>
+</TD>
+
+<TD>
+<P>Perfecto para proyectos electrónicos y programación. </P>
+</TD>
+
+<TD>
+<P>31/07/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>48 </P>
+</TH>
+
+<TD>
+<P>Capturadora </P>
+</TD>
+
+<TD>
+<P>Luisa Mejía </P>
+</TD>
+
+<TD>
+<P>Ideal para streaming y grabaciones en alta calidad. </P>
+</TD>
+
+<TD>
+<P>2/08/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>49 </P>
+</TH>
+
+<TD>
+<P>Smart Plug </P>
+</TD>
+
+<TD>
+<P>Victoria Torres </P>
+</TD>
+
+<TD>
+<P>Muy práctico; fácil de conectar y configurar. </P>
+</TD>
+
+<TD>
+<P>4/08/2025 </P>
+</TD>
+</TR>
+
+<TR>
+<TH>
+<P>50 </P>
+</TH>
+
+<TD>
+<P>Timbre Inteligente </P>
+</TD>
+
+<TD>
+<P>Federico Montoya </P>
+</TD>
+
+<TD>
+<P>Buena cámara; útil para seguridad. </P>
+</TD>
+
+<TD>
+<P>6/08/2025 </P>
+</TD>
+</TR>
+</TBody>
+</Table>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P> </P>
+
+<P>En resumen, en grupos una persona crea el repositorio en GIT y se asigna a los integrantes del grupo una funcionalidad (ramas)…todos deben aportar al código, las funcionalidades a desarrollar son: </P>
+
+<P> </P>
+
+<L>
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Inicialización </LBody>
+</LI>
+
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Iniciar sesión </LBody>
+</LI>
+
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Listar Productos </LBody>
+</LI>
+
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Comentarios </LBody>
+</LI>
+
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Listar usuarios </LBody>
+</LI>
+
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Adicionar productos </LBody>
+</LI>
+
+<LI>
+<Lbl>•</Lbl>
+
+<LBody> Listar productos </LBody>
+</LI>
+</L>
+
+<P> </P>
+
+<P>Nota: Plazo de entrega 29 de Octubre, si un grupo lo entrega el 27 de octubre se evaluara sobre 5.0 y los demás grupos que lo entreguen el 29, se evaluara sobre 4.0 (esto siempre y cuando haya un grupo que entregue el 27 de octubre) </P>
+
+<P> </P>
+</Document>
+</TaggedPDF-doc>

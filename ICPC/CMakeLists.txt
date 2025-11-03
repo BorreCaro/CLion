@@ -4,5 +4,4 @@ project(ICPC)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(BitwiseReversion BitwiseReversion.cpp)
-
 add_executable(CandiesNephews CandiesNephews.cpp)
